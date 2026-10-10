@@ -1,0 +1,27 @@
+# Secrets and local configuration
+.env
+.env.*
+*.secret
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Database backups and dumps
+*.sql
+*.dump
+*.backup
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
