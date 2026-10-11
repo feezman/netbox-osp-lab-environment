@@ -138,3 +138,14 @@ Documentation is being developed as a dedicated Git deliverable. Part Two will b
 ## 10. Author and Learning Outcomes
 
 This project demonstrates practical experience with Linux administration, virtualisation, application deployment, PostgreSQL, Redis, reverse proxy configuration, Git, service troubleshooting, backup recovery testing, and network infrastructure management tooling.
+## 11. Health Check
+
+A read-only health-check script is provided to inspect the status of the core lab services.
+
+Run it from the repository root:
+
+    ./scripts/health-check.sh
+
+The script checks Nginx, NetBox, NetBox RQ, PostgreSQL, and Redis. It reports each service as PASS or FAIL and returns a non-zero exit status if any service is not active.
+
+The check validates service state only; it does not test HTTP response, database queries, or end-to-end NetBox-OSP workflows.
