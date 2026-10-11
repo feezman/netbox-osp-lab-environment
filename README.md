@@ -11,6 +11,18 @@ The project is divided into two parts:
 - **Part One — Building the Lab Environment:** Deploy and validate the application stack and document the installation process.
 - **Part Two — KASI Infrastructure Modelling:** Model KASI's data centre and fibre infrastructure inside NetBox and NetBox-OSP. This phase will be documented separately according to the agreed implementation workflow.
 
+## Documentation Index
+
+| Document | Description |
+|---|---|
+| [Lab Architecture](docs/02-lab-architecture.md) | Application components, service relationships, and lab architecture. |
+| [Environment Specifications](docs/03-environment-specifications.md) | Operating system, software versions, and VM configuration. |
+| [Installation Guide](docs/04-installation-guide.md) | Installation and configuration procedures for the lab. |
+| [Validation and Testing](docs/06-validation-and-testing.md) | Validation checks and recorded test results. |
+| [Backup and Recovery](docs/07-backup-and-recovery.md) | Database backup, restoration, and recovery verification. |
+| [Troubleshooting](docs/08-troubleshooting.md) | Problems encountered, diagnostic steps, and resolutions. |
+| [Lessons Learned](docs/09-lessons-learned.md) | Practical lessons and recommendations from the implementation.
+
 ## 2. Project Objectives
 
 - Deploy NetBox in a self-hosted Ubuntu virtual machine.
